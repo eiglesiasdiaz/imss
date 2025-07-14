@@ -2,27 +2,59 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Reportes Power BI</title>
+  <title>Panel de reportes Power BI</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
-    a.enlace-reporte {
-      font-size: 18px;
-      text-decoration: none;
-      color: black;
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f6f8;
+      color: #333;
+      margin: 0;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 40px;
+    }
+
+    .boton-reporte {
       display: block;
-      margin-bottom: 10px;
+      width: 80%;
+      max-width: 400px;
+      margin: 15px auto;
+      padding: 18px 30px;
+      font-size: 18px;
+      background-color: #0056b3;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
     }
-    a.enlace-reporte:visited {
-      color: black;
+
+    .boton-reporte:hover {
+      background-color: #003f7d;
     }
-    a.enlace-reporte:hover {
-      text-decoration: underline;
+
+    footer {
+      margin-top: 60px;
+      font-size: 14px;
+      color: #888;
     }
   </style>
 </head>
 <body>
-  <h1>Reportes Power BI</h1>
 
-  <a class="enlace-reporte" href="https://app.powerbi.com/view?r=eyJrIjoiYTQ2OTE3MWItNDllMy00MDQxLTlhNjktMTllNDYxOTk3NTM5IiwidCI6ImIwOGU2MDc4LWI2YTYtNGUzNy1iNzdhLWY0NjdkMzJjNTRlNSIsImMiOjR9" target="_blank">Hospitales prioritarios</a>
-  <a class="enlace-reporte" href="https://app.powerbi.com/view?r=eyJrIjoiZDAyYTVhYTctM2IyNi00NDJlLTg3YTAtYjZkMzlmY2Q1MWY5IiwidCI6ImIwOGU2MDc4LWI2YTYtNGUzNy1iNzdhLWY0NjdkMzJjNTRlNSIsImMiOjR9" target="_blank">Estrategia 2 30 100</a>
+  <h1>Panel de reportes Power BI</h1>
+
+  <a href="https://app.powerbi.com/view?r=eyJrIjoiYTQ2OTE3MWItNDllMy00MDQxLTlhNjktMTllNDYxOTk3NTM5IiwidCI6ImIwOGU2MDc4LWI2YTYtNGUzNy1iNzdhLWY0NjdkMzJjNTRlNSIsImMiOjR9" target="_blank" class="boton-reporte">Hospitales prioritarios</a>
+  <a href="https://app.powerbi.com/view?r=eyJrIjoiZDAyYTVhYTctM2IyNi00NDJlLTg3YTAtYjZkMzlmY2Q1MWY5IiwidCI6ImIwOGU2MDc4LWI2YTYtNGUzNy1iNzdhLWY0NjdkMzJjNTRlNSIsImMiOjR9" target="_blank" class="boton-reporte">Estrategia 2 30 100</a>
+
+  <footer>
+    Última actualización: 14 de julio de 2025
+  </footer>
+
 </body>
 </html>
