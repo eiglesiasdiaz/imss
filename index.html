@@ -7,7 +7,7 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: #f4f6f8;
+      background-color: #e6f7ff; // #f4f6f8
       color: #333;
       margin: 0;
       padding: 40px 20px;
@@ -43,21 +43,62 @@
       font-size: 14px;
       color: #888;
     }
+
+  .titulo {
+    font-weight: bold;
+    margin: 0;
+  }
+  .titulo-grande {
+    font-size: 36px;
+  }
+  .titulo-mediano {
+    font-size: 24px;
+  }
   </style>
 </head>
 <body>
 
-  <h1>Panel de reportes Power BI</h1>
+   <table width="80%" align="center">
+      <tr>
+         <td width="20%">
+            <img src="logoimss.png" alt="Logo" width="140" height="140" />
+         </td>
+         <td width="80%">
+            <p class="titulo titulo-grande">INSTITUTO MEXICANO DEL SEGURO SOCIAL</p>
+            <p class="titulo titulo-mediano">DIRECCIÓN DE ADMINISTRACIÓN</p>
+            <p class="titulo titulo-mediano">UNIDAD DE PERSONAL</p>
+         </td>
+      </tr>
+   </table>
 
-  <a href="https://app.powerbi.com/view?r=eyJrIjoiYTQ2OTE3MWItNDllMy00MDQxLTlhNjktMTllNDYxOTk3NTM5IiwidCI6ImIwOGU2MDc4LWI2YTYtNGUzNy1iNzdhLWY0NjdkMzJjNTRlNSIsImMiOjR9" target="_blank" class="boton-reporte">Hospitales prioritarios</a>
-  <a href="https://app.powerbi.com/view?r=eyJrIjoiZDAyYTVhYTctM2IyNi00NDJlLTg3YTAtYjZkMzlmY2Q1MWY5IiwidCI6ImIwOGU2MDc4LWI2YTYtNGUzNy1iNzdhLWY0NjdkMzJjNTRlNSIsImMiOjR9" target="_blank" class="boton-reporte">Estrategia 2 30 100 e IMSS Bienestar</a>
-  <a href="http://11.16.41.4:9090/up" target="_blank" class="boton-reporte">Aplicación web UP</a>
-  <a href="https://imssmx-my.sharepoint.com/:x:/g/personal/eduardo_iglesias_imss_gob_mx/EaH0KyIuPQtPvq8DeiFIB6YB1VDMcpb8YVk1QUFpHCrIlA?e=i57pNV" target="_blank" class="boton-reporte">Vacantes Nómina de Mando</a>
-  <a href="https://imssmx-my.sharepoint.com/:x:/g/personal/eduardo_iglesias_imss_gob_mx/EQmkx-62S5ZDqqNzwCkpWx0BNgk0I51aWevGaEnnawkDuQ?e=oVmrtj" target="_blank" class="boton-reporte">Gráfica de Gantt</a>
-  <a href="https://imssmx-my.sharepoint.com/:x:/g/personal/eduardo_iglesias_imss_gob_mx/EbLorBGofZFGk74mNKGI9ZwBJDMYV-UJiwgrdduVAq9Eew?e=TZICMk" target="_blank" class="boton-reporte">Informe Analítico</a>
+   <hr class="black" />
+
+   <!--<h1>Unidad de Personal</h1>-->
+
+   <table width="80%" align="center">
+      <tr valign="top">
+         <td width="33%" align="center">
+            <h2>Reportes de Power BI</h2>
+              <a href="https://app.powerbi.com/view?r=eyJrIjoiYTQ2OTE3MWItNDllMy00MDQxLTlhNjktMTllNDYxOTk3NTM5IiwidCI6ImIwOGU2MDc4LWI2YTYtNGUzNy1iNzdhLWY0NjdkMzJjNTRlNSIsImMiOjR9" target="_blank" class="boton-reporte" style="width:320px">Hospitales prioritarios</a>
+              <a href="https://app.powerbi.com/view?r=eyJrIjoiZDAyYTVhYTctM2IyNi00NDJlLTg3YTAtYjZkMzlmY2Q1MWY5IiwidCI6ImIwOGU2MDc4LWI2YTYtNGUzNy1iNzdhLWY0NjdkMzJjNTRlNSIsImMiOjR9" target="_blank" class="boton-reporte" style="width:320px">Estrategia 2 30 100 e IMSS Bienestar</a>
+         </td>
+         <td width="34%" align="center">
+            <h2>Archivos de Excel</h2>
+            <a href="https://imssmx-my.sharepoint.com/:x:/g/personal/eduardo_iglesias_imss_gob_mx/EaH0KyIuPQtPvq8DeiFIB6YB1VDMcpb8YVk1QUFpHCrIlA?e=i57pNV" target="_blank" class="boton-reporte" style="width:320px">Vacantes Nómina de Mando</a>
+            <a href="https://imssmx-my.sharepoint.com/:x:/g/personal/eduardo_iglesias_imss_gob_mx/EQmkx-62S5ZDqqNzwCkpWx0BNgk0I51aWevGaEnnawkDuQ?e=oVmrtj" target="_blank" class="boton-reporte" style="width:320px">Gráfica de Gantt</a>
+            <a href="https://imssmx-my.sharepoint.com/:x:/g/personal/eduardo_iglesias_imss_gob_mx/EbLorBGofZFGk74mNKGI9ZwBJDMYV-UJiwgrdduVAq9Eew?e=TZICMk" target="_blank" class="boton-reporte" style="width:320px">Informe Analítico</a>
+         </td>
+         <td width="33%" align="center">
+            <h2>Otros</h2>
+              <a href="http://11.16.41.4:9090/up" target="_blank" class="boton-reporte" style="width:320px">Aplicación web UP</a>
+              <a href="https://imssmx-my.sharepoint.com/:b:/g/personal/eduardo_iglesias_imss_gob_mx/EfIVynaxwFlKg8i9lKTrIQIBZLBAqQsP8CiDjedDgQ93Yg?e=h06ohO" target="_blank" class="boton-reporte" style="width:320px">Cumpleaños 29-31 julio 2025</a>
+              <a href="https://imssmx-my.sharepoint.com/:b:/g/personal/eduardo_iglesias_imss_gob_mx/EaqejO-0ft5FtB5Qw1kYLbAB72GzurOjc__Ngh8sp84-sw?e=QuwpNS" target="_blank" class="boton-reporte" style="width:320px">México te abraza</a>
+         </td>
+      </tr>
+   </table>
 
   <footer>
-    Última actualización: 16 de julio de 2025.
+    Última actualización: 5 de agosto de 2025.
   </footer>
 
 </body>
